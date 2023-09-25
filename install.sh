@@ -3,13 +3,13 @@ cd "$(dirname "$0")"
 mkdir java
 
 # java 16
-wget -c https://download.java.net/java/GA/jdk16/7863447f0ab643c585b9bdebf67c69db/36/GPL/openjdk-16_linux-x64_bin.tar.gz
-tar xvf openjdk-16_linux-x64_bin.tar.gz
-sudo mv jdk-16 java/
+wget -c https://download.visualstudio.microsoft.com/download/pr/47631081-c93a-4629-be38-bec6fced2c35/84d7a8cd3efb467f991207d3961f65ae/microsoft-jdk-16.0.2.7.1-linux-aarch64.tar.gz
+tar xvf microsoft-jdk-16.0.2.7.1-linux-aarch64.tar.gz
+sudo mv jdk-16.0.2+7 java/
 # java 17
-wget -c https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_linux-x64_bin.tar.gz
-tar xvf openjdk-17.0.1_linux-x64_bin.tar.gz
-sudo mv jdk-17.0.1 java/
+wget -c https://download.visualstudio.microsoft.com/download/pr/275adff5-46c9-4a3a-93d5-2bc5b46ee4d9/43e63779f74ca5587603a06b8692b62c/microsoft-jdk-17.0.8-linux-aarch64.tar.gz
+tar xvf microsoft-jdk-17.0.8-linux-aarch64.tar.gz
+sudo mv jdk-17.0.8+7 java/
 
 # velocity server
 wget -c https://api.papermc.io/v2/projects/velocity/versions/3.2.0-SNAPSHOT/builds/265/downloads/velocity-3.2.0-SNAPSHOT-265.jar -O proxy/velocity.jar
