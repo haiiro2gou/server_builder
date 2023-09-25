@@ -1,3 +1,4 @@
+#!/bin/bash
 # velocity server
 wget https://api.papermc.io/v2/projects/velocity/versions/3.2.0-SNAPSHOT/builds/265/downloads/velocity-3.2.0-SNAPSHOT-265.jar -O proxy/velocity.jar
 # velocity plugins
