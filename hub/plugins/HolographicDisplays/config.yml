@@ -1,0 +1,31 @@
+space-between-lines: 0.02
+holograms-view-range: 48
+quick-edit-commands: true
+placeholders:
+  PlaceholderAPI:
+    enabled: true
+    expand-short-format: true
+    default-refresh-interval-ticks: 200
+image-rendering:
+  solid-pixel: █
+  transparent-pixel: '&7 ⎹ '
+bungee:
+  refresh-seconds: 3
+  use-RedisBungee: false
+  pinger:
+    enable: true
+    timeout: 500
+    offline-motd: '&cN/A'
+    status:
+      online: '&aOnline'
+      offline: '&cOffline'
+    motd-remove-leading-trailing-spaces: true
+    servers:
+    - 'temporary: 127.0.0.1:25565'
+    - 'hub: 192.168.2.121:25566'
+    - 'event: 192.168.2.121:25567'
+time:
+  format: hh:mm:ss
+  zone: GMT+1
+update-notification: true
+debug: false
