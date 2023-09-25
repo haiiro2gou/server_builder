@@ -1,5 +1,15 @@
 #!/bin/bash
 cd "$(dirname "$0")"
+mkdir java
+
+# java 16
+wget https://download.java.net/java/GA/jdk16/7863447f0ab643c585b9bdebf67c69db/36/GPL/openjdk-16_linux-x64_bin.tar.gz
+tar xvf openjdk-16_linux-x64_bin.tar.gz
+sudo mv jdk-16 java/
+# java 17
+wget https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_linux-x64_bin.tar.gz
+tar xvf openjdk-17.0.1_linux-x64_bin.tar.gz
+sudo mv jdk-17.0.1 java/
 
 # velocity server
 wget https://api.papermc.io/v2/projects/velocity/versions/3.2.0-SNAPSHOT/builds/265/downloads/velocity-3.2.0-SNAPSHOT-265.jar -O proxy/velocity.jar
