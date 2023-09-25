@@ -1,5 +1,5 @@
 #!/bin/bash
-scriptDir = $(cd $(dirname $0) && pwd)
+cd "$(dirname "$0")"
 
 bash ./hub/boot.sh
 bash ./proxy/boot.sh
