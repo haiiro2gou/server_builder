@@ -96,20 +96,20 @@ compression-level = -1
 
 # How fast (in milliseconds) are clients allowed to connect after the last connection? By
 # default, this is three seconds. Disable this by setting this to 0.
-login-ratelimit = 3000
+login-ratelimit = 0
 
 # Specify a custom timeout for connection timeouts here. The default is five seconds.
-connection-timeout = 60000
+connection-timeout = 0
 
 # Specify a read timeout for connections here. The default is 30 seconds.
-read-timeout = 30000
+read-timeout = 0
 
 # Enables compatibility with HAProxy's PROXY protocol. If you don't know what this is for, then
 # don't enable it.
 haproxy-protocol = false
 
 # Enables TCP fast open support on the proxy. Requires the proxy to run on Linux.
-tcp-fast-open = false
+tcp-fast-open = true
 
 # Enables BungeeCord plugin messaging channel support on Velocity.
 bungee-plugin-message-channel = true
@@ -138,7 +138,7 @@ log-player-connections = true
 enabled = false
 
 # If query is enabled, on what port should the query protocol listen on?
-port = 25577
+port = 2585
 
 # This is the map name that is reported to the query services.
 map = "Velocity"
