@@ -13,7 +13,7 @@ temporary:
 permanent:
   world: world
   triggerblock: AIR
-  bungee: permanent
+  bungee: event
   pos1:
     X: 5
     Y: 38

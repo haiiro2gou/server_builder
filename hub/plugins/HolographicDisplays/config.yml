@@ -21,11 +21,11 @@ bungee:
       offline: '&cOffline'
     motd-remove-leading-trailing-spaces: true
     servers:
-    - 'temporary: 127.0.0.1:25565'
-    - 'hub: 192.168.2.121:25566'
+    - 'temporary: 192.168.2.121:25565'
+    - 'hub: 127.0.0.1:25566'
     - 'event: 192.168.2.121:25567'
 time:
   format: hh:mm:ss
-  zone: GMT+1
+  zone: GMT+9
 update-notification: true
 debug: false
