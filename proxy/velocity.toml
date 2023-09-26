@@ -74,11 +74,9 @@ enable-player-address-logging = true
 # represents the IP address of the server to connect to.
 lobby = "127.0.0.1:25566"
 temporary = "192.168.2.121:25565"
-event = "192.168.2.121:25567"
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [
-    "event",
     "lobby"
 ]
 
