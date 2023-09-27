@@ -15,7 +15,7 @@ Repository for easy Minecraft multi-play server setup.
 
 ### License
 
-This repository is licensed under the [CC0-1.0 License](LICENSE).
+This repository is licensed under [CC0-1.0 Universal](LICENSE).
 
 ### Contact
 
