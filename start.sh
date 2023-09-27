@@ -1,5 +1,5 @@
 #!/bin/bash
 cd "$(dirname "$0")"
 
-bash ./hub/boot.sh
-bash ./proxy/boot.sh
+screen -UAmdS hub bash ./hub/boot.sh
+screen -UAmdS proxy bash ./proxy/boot.sh
