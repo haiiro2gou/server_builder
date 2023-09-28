@@ -11,6 +11,10 @@ Repository for easy Minecraft multi-play server setup.
 2. Run install.sh (for Windows, install.bat).
 3. Run start.sh (start.bat).
 
+**Notice for Linux**  
+Open `/etc/fstab` and add the following line at the end to use the RAM disk function.  
+`tmpfs /ramdisk tmpfs defaults,size=4G 0 0`
+
 ## Others
 
 ### License
