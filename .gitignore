@@ -1,3 +1,5 @@
 java
 forwarding.secret
 *.jar
+temp
+event
