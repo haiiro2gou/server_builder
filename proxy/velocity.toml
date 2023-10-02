@@ -2,7 +2,7 @@
 config-version = "2.6"
 
 # What port should the proxy be bound to? By default, we'll bind to all addresses on port 25577.
-bind = "0.0.0.0:25575"
+bind = "0.0.0.0:25563"
 
 # What should be the MOTD? This gets displayed when the player adds your server to
 # their server list. Only MiniMessage format is accepted.
@@ -72,14 +72,14 @@ enable-player-address-logging = true
 [servers]
 # Configure your servers here. Each key represents the server's name, and the value
 # represents the IP address of the server to connect to.
-lobby = "127.0.0.1:25566"
-temporary = "192.168.2.121:25565"
-event = "192.168.2.121:25567"
+lobby = "127.0.0.1:25564"
+temporary = "127.0.0.1:25565"
+event = "127.0.0.1:25566"
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [
-    "lobby",
-    "event"
+    "event",
+    "lobby"
 ]
 
 [forced-hosts]
