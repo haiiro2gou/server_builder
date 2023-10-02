@@ -3,3 +3,4 @@ forwarding.secret
 *.jar
 temp
 event
+rcon.toml
