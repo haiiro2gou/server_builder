@@ -1,6 +1,7 @@
 java
-forwarding.secret
-*.jar
 temp
 event
-rcon.toml
+
+*.jar
+
+forwarding.secret
