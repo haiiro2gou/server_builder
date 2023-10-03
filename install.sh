@@ -6,7 +6,6 @@ mkdir java
 wget -c https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u352-b08/OpenJDK8U-jdk_aarch64_linux_hotspot_8u352b08.tar.gz
 tar xvf OpenJDK8U-jdk_aarch64_linux_hotspot_8u352b08.tar.gz
 sudo mv jdk8u352-b08 java/
-
 # java 16
 wget -c https://download.visualstudio.microsoft.com/download/pr/47631081-c93a-4629-be38-bec6fced2c35/84d7a8cd3efb467f991207d3961f65ae/microsoft-jdk-16.0.2.7.1-linux-aarch64.tar.gz
 tar xvf microsoft-jdk-16.0.2.7.1-linux-aarch64.tar.gz
@@ -19,6 +18,7 @@ sudo mv jdk-17.0.8+7 java/
 # velocity server
 wget -c https://api.papermc.io/v2/projects/velocity/versions/3.2.0-SNAPSHOT/builds/265/downloads/velocity-3.2.0-SNAPSHOT-265.jar -O proxy/velocity.jar
 # velocity plugins
+sudo mkdir -p proxy/plugins
 wget -c https://github.com/adde0109/Ambassador/releases/download/v1.4.1-beta/Ambassador-Velocity-1.4.1-all.jar -O proxy/plugins/ambassador.jar
 wget -c https://github.com/ygtdmn/VelocityRcon/releases/download/v1.1/VelocityRcon.jar -O proxy/plugins/velocity_rcon.jar
 

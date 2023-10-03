@@ -16,6 +16,7 @@ Remove-Item -Path jdk-17.zip
 # velocity server
 Invoke-WebRequest https://api.papermc.io/v2/projects/velocity/versions/3.2.0-SNAPSHOT/builds/265/downloads/velocity-3.2.0-SNAPSHOT-265.jar -O proxy/velocity.jar
 # velocity plugins
+New-Item proxy/plugins -ItemType Directory
 Invoke-WebRequest https://github.com/adde0109/Ambassador/releases/download/v1.4.1-beta/Ambassador-Velocity-1.4.1-all.jar -O proxy/plugins/ambassador.jar
 Invoke-WebRequest https://github.com/ygtdmn/VelocityRcon/releases/download/v1.1/VelocityRcon.jar -O proxy/plugins/velocity_rcon.jar
 
