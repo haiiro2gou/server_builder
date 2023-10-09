@@ -25,11 +25,16 @@ tar xvf microsoft-jdk-17.0.8-linux-aarch64.tar.gz
 sudo mv jdk-17.0.8+7 java/
 
 # papermc server
-wget -c https://api.papermc.io/v2/projects/paper/versions/1.16.5/builds/794/downloads/paper-1.16.5-794.jar -O hub/paper.jar
+wget -c https://api.papermc.io/v2/projects/paper/versions/1.20.1/builds/196/downloads/paper-1.20.1-196.jar -O hub/paper.jar
 # papermc plugins
 sudo mkdir -p hub/plugins
 wget -c https://cdn.modrinth.com/data/axTqSWQA/versions/gVctECs8/Advanced-Portals-0.9.3.jar -O hub/plugins/advanced_portals.jar
+wget -c "https://www.patreon.com/file?h=89830486&i=15920178" -O hub/plugins/coreprotect.jar
+wget -c https://github.com/DiscordSRV/DiscordSRV/releases/download/v1.26.2/DiscordSRV-Build-1.26.2.jar -o hub/plugins/discordsrv.jar
+wget -c https://github.com/IntellectualSites/FastAsyncWorldEdit/releases/download/2.8.1/FastAsyncWorldEdit-Bukkit-2.8.1.jar -o hub/plugins/fawe.jar
 wget -c https://dev.bukkit.org/projects/holographic-displays/files/4701290/download -O hub/plugins/holographic_displays.jar
+wget -c https://github.com/zDevelopers/ImageOnMap/releases/download/v4.2.2/ImageOnMap-4.2.2.jar -o hub/plugins/imageonmap.jar
+wget -c https://download.luckperms.net/1517/bungee/loader/LuckPerms-Bungee-5.4.104.jar -O hub/plugins/luckperms.jar
 wget -c https://github.com/dejvokep/safe-net/releases/download/v3.8/SafeNET-3.8.jar -O hub/plugins/safenet.jar
 wget -c https://github.com/SkinsRestorer/SkinsRestorerX/releases/download/14.2.12/SkinsRestorer.jar -O hub/plugins/skinsrestorer.jar
 wget -c https://github.com/ViaVersion/ViaBackwards/releases/download/4.8.1/ViaBackwards-4.8.1.jar -O hub/plugins/viabackwards.jar
@@ -40,4 +45,5 @@ wget -c https://github.com/ViaVersion/ViaRewind/releases/download/3.0.0/ViaRewin
 wget -c https://ci.md-5.net/job/BungeeCord/lastSuccessfulBuild/artifact/bootstrap/target/BungeeCord.jar -O proxy/bungeecord.jar
 # bungeecord plugins
 sudo mkdir -p proxy/plugins
+wget -c https://download.luckperms.net/1517/bungee/loader/LuckPerms-Bungee-5.4.104.jar -O proxy/plugins/luckperms.jar
 wget -c https://github.com/dejvokep/safe-net/releases/download/v3.8/SafeNET-3.8.jar -O proxy/plugins/safenet.jar
