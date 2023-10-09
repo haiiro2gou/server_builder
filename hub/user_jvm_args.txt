@@ -1,3 +1,4 @@
+-DPaper.IgnoreJavaVersion=true
 -Xmx2G
 -XX:+UseG1GC
 -XX:+ParallelRefProcEnabled
