@@ -1,3 +1,3 @@
 [submodule "haiiro_server"]
-	path = hub/world/datapacks
-	url = ../haiiro_server.git
+	path = haiiro_server
+	url = git@github.com:haiiro2gou/haiiro_server.git
