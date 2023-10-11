@@ -1,4 +1,4 @@
-# MC Server Builder (Alpha)
+# MC Server Builder
 
 Repository for easy Minecraft multi-play server setup.
 
